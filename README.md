@@ -22,4 +22,5 @@ open Swifty-Proteions.xcworkspace
 ## Demo
 
 ![search](https://media.giphy.com/media/dCRZWgTRJJX9vJ4qbm/giphy.gif)
-![search](https://media.giphy.com/media/Ss6um5JuImWqf5yLLF/giphy.gif)
+![search](https://media.giphy.com/media/J1jLD35Vq9v3yCmN0e/giphy.gif)
+![search](https://media.giphy.com/media/fAVpkq15cSBZdlMSJB/giphy.gif)
