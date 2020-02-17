@@ -1,6 +1,6 @@
-# Swifty Companions
+# Swifty Proteins
 
-The aim of the projet is to build an application that will retrieve the information of 42 student, using the 42 API.
+Aim of the project to use access to PDB (Protein Data Bank) to build an app which visualizes proteins models according to standardized representation.
 
 ## How to use
 
