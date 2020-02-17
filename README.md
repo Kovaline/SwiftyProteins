@@ -18,3 +18,8 @@ Run the app
 ```
 open Swifty-Proteions.xcworkspace
 ```
+
+## Demo
+
+![search](https://media.giphy.com/media/dCRZWgTRJJX9vJ4qbm/giphy.gif)
+![search](https://media.giphy.com/media/Ss6um5JuImWqf5yLLF/giphy.gif)
