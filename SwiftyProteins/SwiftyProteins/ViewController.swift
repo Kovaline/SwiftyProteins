@@ -11,6 +11,7 @@ import LocalAuthentication
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var swiftyTittle: UILabel!
     
     @IBOutlet weak var loginButton: UIButton!
     let context = LAContext()
@@ -42,7 +43,12 @@ class ViewController: UIViewController {
     }
     
     
+    
+    
     override func viewDidLoad() {
+
+        swiftyTittle.adjustsFontSizeToFitWidth = true
+        swiftyTittle.minimumScaleFactor = 0.2
         loginButton.isHidden = true;
                 UIApplication.shared.isNetworkActivityIndicatorVisible = true
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil)

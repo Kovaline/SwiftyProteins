@@ -10,10 +10,12 @@
 		841F00C823DB402700F251F6 /* ProteinLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F00C723DB402700F251F6 /* ProteinLoader.swift */; };
 		844ADAF323AB91AA00739BC4 /* ProteinsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844ADAF223AB91AA00739BC4 /* ProteinsListViewController.swift */; };
 		844ADAF523AB9DA400739BC4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844ADAF423AB9DA400739BC4 /* TableViewCell.swift */; };
+		844F6A6723F815A1003A5862 /* Bpmolecules-w318.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844F6A6523F815A1003A5862 /* Bpmolecules-w318.ttf */; };
+		844F6A6823F815A1003A5862 /* HeartBreakingBad-zG0w.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 844F6A6623F815A1003A5862 /* HeartBreakingBad-zG0w.ttf */; };
+		844F6A6A23F8175A003A5862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844F6A6923F8175A003A5862 /* Assets.xcassets */; };
 		84B6F27C23A7A0AD003F42D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F27B23A7A0AD003F42D8 /* AppDelegate.swift */; };
 		84B6F27E23A7A0AD003F42D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6F27D23A7A0AD003F42D8 /* ViewController.swift */; };
 		84B6F28123A7A0AD003F42D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6F27F23A7A0AD003F42D8 /* Main.storyboard */; };
-		84B6F28323A7A0B9003F42D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B6F28223A7A0B9003F42D8 /* Assets.xcassets */; };
 		84B6F28623A7A0B9003F42D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6F28423A7A0B9003F42D8 /* LaunchScreen.storyboard */; };
 		84B9D16623D72411009330D2 /* ligands.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84B9D16523D72411009330D2 /* ligands.txt */; };
 		84CCF96723DF0D6B0043C042 /* LigandModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCF96623DF0D6B0043C042 /* LigandModelController.swift */; };
@@ -27,11 +29,13 @@
 		841F00C723DB402700F251F6 /* ProteinLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinLoader.swift; sourceTree = "<group>"; };
 		844ADAF223AB91AA00739BC4 /* ProteinsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinsListViewController.swift; sourceTree = "<group>"; };
 		844ADAF423AB9DA400739BC4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		844F6A6523F815A1003A5862 /* Bpmolecules-w318.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bpmolecules-w318.ttf"; path = "../../../../Desktop/Bpmolecules-w318.ttf"; sourceTree = "<group>"; };
+		844F6A6623F815A1003A5862 /* HeartBreakingBad-zG0w.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HeartBreakingBad-zG0w.ttf"; path = "../../../../Desktop/HeartBreakingBad-zG0w.ttf"; sourceTree = "<group>"; };
+		844F6A6923F8175A003A5862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B6F27823A7A0AD003F42D8 /* SwiftyProteins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyProteins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B6F27B23A7A0AD003F42D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B6F27D23A7A0AD003F42D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84B6F28023A7A0AD003F42D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84B6F28223A7A0B9003F42D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84B6F28523A7A0B9003F42D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B6F28723A7A0B9003F42D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B9D16523D72411009330D2 /* ligands.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ligands.txt; sourceTree = "<group>"; };
@@ -50,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844F6A6423F81578003A5862 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				844F6A6523F815A1003A5862 /* Bpmolecules-w318.ttf */,
+				844F6A6623F815A1003A5862 /* HeartBreakingBad-zG0w.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		84B6F26F23A7A0AD003F42D8 = {
 			isa = PBXGroup;
 			children = (
@@ -72,13 +85,14 @@
 		84B6F27A23A7A0AD003F42D8 /* SwiftyProteins */ = {
 			isa = PBXGroup;
 			children = (
+				844F6A6423F81578003A5862 /* fonts */,
 				84B6F27B23A7A0AD003F42D8 /* AppDelegate.swift */,
 				84B6F27D23A7A0AD003F42D8 /* ViewController.swift */,
 				84B6F27F23A7A0AD003F42D8 /* Main.storyboard */,
 				84CCF96623DF0D6B0043C042 /* LigandModelController.swift */,
 				844ADAF423AB9DA400739BC4 /* TableViewCell.swift */,
 				844ADAF223AB91AA00739BC4 /* ProteinsListViewController.swift */,
-				84B6F28223A7A0B9003F42D8 /* Assets.xcassets */,
+				844F6A6923F8175A003A5862 /* Assets.xcassets */,
 				84B6F28423A7A0B9003F42D8 /* LaunchScreen.storyboard */,
 				84B6F28723A7A0B9003F42D8 /* Info.plist */,
 				841F00C723DB402700F251F6 /* ProteinLoader.swift */,
@@ -163,9 +177,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844F6A6823F815A1003A5862 /* HeartBreakingBad-zG0w.ttf in Resources */,
 				84B9D16623D72411009330D2 /* ligands.txt in Resources */,
 				84B6F28623A7A0B9003F42D8 /* LaunchScreen.storyboard in Resources */,
-				84B6F28323A7A0B9003F42D8 /* Assets.xcassets in Resources */,
+				844F6A6723F815A1003A5862 /* Bpmolecules-w318.ttf in Resources */,
+				844F6A6A23F8175A003A5862 /* Assets.xcassets in Resources */,
 				84B6F28123A7A0AD003F42D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

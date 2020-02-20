@@ -52,5 +52,9 @@
 	</dict>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Access to save images</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>BrB.ttf</string>
+	</array>
 </dict>
 </plist>

@@ -18,6 +18,8 @@ class ProteinsListViewController: UIViewController, UITableViewDelegate, UITable
     @IBOutlet weak var searchProtein: UISearchBar!
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
+        var textFieldInsideSearchBar = searchProtein.value(forKey: "searchField") as? UITextField
+        textFieldInsideSearchBar?.textColor = UIColor.white
         spinnerWheel.isHidden = true
         self.navigationItem.setHidesBackButton(true, animated: true)
         tableView.backgroundColor = UIColor.clear
@@ -61,7 +63,6 @@ class ProteinsListViewController: UIViewController, UITableViewDelegate, UITable
         cell.backgroundColor = UIColor.clear
         cell.protein.text = filteredArray![indexPath.row]
         tableView.rowHeight = UITableView.automaticDimension
-        tableView.estimatedRowHeight = 44
         return cell
     }
     
