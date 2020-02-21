@@ -19,12 +19,11 @@
 		84B6F28623A7A0B9003F42D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B6F28423A7A0B9003F42D8 /* LaunchScreen.storyboard */; };
 		84B9D16623D72411009330D2 /* ligands.txt in Resources */ = {isa = PBXBuildFile; fileRef = 84B9D16523D72411009330D2 /* ligands.txt */; };
 		84CCF96723DF0D6B0043C042 /* LigandModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCF96623DF0D6B0043C042 /* LigandModelController.swift */; };
-		C38141FC871BEA16218716BD /* Pods_SwiftyProteins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D58B9D82F81C3B7C3B0BC48 /* Pods_SwiftyProteins.framework */; };
+		F687F8CD6455ACED57FF0975 /* libPods-SwiftyProteins.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 945557B2C71D4A05FFB6F81B /* libPods-SwiftyProteins.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		057EE18987A2293A5C3FB4DC /* Pods-SwiftyProteins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyProteins.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyProteins/Pods-SwiftyProteins.debug.xcconfig"; sourceTree = "<group>"; };
-		1D58B9D82F81C3B7C3B0BC48 /* Pods_SwiftyProteins.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyProteins.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29295DF8601B23E486EBBFD5 /* Pods-SwiftyProteins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyProteins.release.xcconfig"; path = "Target Support Files/Pods-SwiftyProteins/Pods-SwiftyProteins.release.xcconfig"; sourceTree = "<group>"; };
 		841F00C723DB402700F251F6 /* ProteinLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinLoader.swift; sourceTree = "<group>"; };
 		844ADAF223AB91AA00739BC4 /* ProteinsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProteinsListViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +38,9 @@
 		84B6F28523A7A0B9003F42D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B6F28723A7A0B9003F42D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B9D16523D72411009330D2 /* ligands.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ligands.txt; sourceTree = "<group>"; };
+		84C2591D23FFF46C00D0FC24 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CCF96623DF0D6B0043C042 /* LigandModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigandModelController.swift; sourceTree = "<group>"; };
+		945557B2C71D4A05FFB6F81B /* libPods-SwiftyProteins.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftyProteins.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C38141FC871BEA16218716BD /* Pods_SwiftyProteins.framework in Frameworks */,
+				F687F8CD6455ACED57FF0975 /* libPods-SwiftyProteins.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +113,8 @@
 		C243A0F602E873BF5FF007EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D58B9D82F81C3B7C3B0BC48 /* Pods_SwiftyProteins.framework */,
+				84C2591D23FFF46C00D0FC24 /* Alamofire.framework */,
+				945557B2C71D4A05FFB6F81B /* libPods-SwiftyProteins.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +130,6 @@
 				84B6F27423A7A0AD003F42D8 /* Sources */,
 				84B6F27523A7A0AD003F42D8 /* Frameworks */,
 				84B6F27623A7A0AD003F42D8 /* Resources */,
-				7ECC2AE96FB053B88BD762CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,23 +210,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7ECC2AE96FB053B88BD762CF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftyProteins/Pods-SwiftyProteins-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftyProteins/Pods-SwiftyProteins-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyProteins/Pods-SwiftyProteins-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -388,7 +372,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4B345ZU3C;
 				INFOPLIST_FILE = SwiftyProteins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,7 +392,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4B345ZU3C;
 				INFOPLIST_FILE = SwiftyProteins/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
